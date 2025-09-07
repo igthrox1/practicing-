@@ -40,6 +40,9 @@ console.log("Substring (0, 10): '" + sampleString.substring(0, 10) + "'");
 console.log("Index of 'String': " + sampleString.indexOf("String"));
 console.log("Replace 'Methods' with 'Functions': '" + sampleString.replace("Methods", "Functions") + "'");
 console.log("Length of string: " + sampleString.length);
+console.log("includes 'JavaScript': " + sampleString.includes("JavaScript"));
+console.log("startsWith '  Java': " + sampleString.startsWith("  Java"));
+console.log("endsWith 'Methods  ': " + sampleString.endsWith("Methods  "));
 
 //strings are immutable
 let immutableString = "Hello";
