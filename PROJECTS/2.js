@@ -7,17 +7,17 @@
 //play the game for 10 times and print the score of user and computer
 //ask him if he wants to play again or not
 
-let choices = ["snake", "water", "gun"];
+let choices = ["stone", "paper", "scissor"];
 let userScore = 0;
 let computerScore = 0;
 let rounds = 1;
 let again = true;
-let start = confirm("Do you want to play Snake, Water, Gun game?");
+let start = confirm("Do you want to play Stone, Paper, Scissor game?");
 
 do{
-    let userChoice = prompt("Round " + rounds + ": Enter your choice (snake, water, gun):").toLowerCase();
+    let userChoice = prompt("Round " + rounds + ": Enter your choice (stone, paper, scissor):").toLowerCase();
     if (!choices.includes(userChoice)) {
-        alert("Invalid choice! Please choose snake, water, or gun.");
+        alert("Invalid choice! Please choose stone, paper, or scissor.");
         continue; // Skip to the next iteration to ask for input again
     }
 
@@ -27,9 +27,9 @@ do{
     if (userChoice === computerChoice) {
         alert("It's a tie!");
     } else if (
-        (userChoice === "snake" && computerChoice === "water") ||
-        (userChoice === "water" && computerChoice === "gun") ||
-        (userChoice === "gun" && computerChoice === "snake")
+        (userChoice === "stone" && computerChoice === "scissor") ||
+        (userChoice === "paper" && computerChoice === "stone") ||
+        (userChoice === "scissor" && computerChoice === "paper")
     ) {
         alert("You win this round!");
         userScore++;

@@ -118,4 +118,4 @@ console.log(filteredArray); // [30, 40, 50]
 let sum = numArray1.reduce((a,b)=>{
     return a + b; //this is used for summing up all elements in the array
 })
-console.log(sum); //150
+console.log(sum); //150BOM.JS
