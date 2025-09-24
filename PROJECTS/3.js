@@ -8,13 +8,13 @@ const msg = document.querySelector("#msg")
 const userScorePara = document.querySelector("#user-score")
 const compuScorePara = document.querySelector("#computer-score")
 const namee = document.querySelector("#name")
-namee.innerText=name
+namee.innerText=name;
 const draw = (compuChoice) => {
     msg.innerText=`the game was draw play again, computer chose ${compuChoice}`;
     msg.style.backgroundColor="black";
 }
 
-const showWinner = (userWin,userChoice,compuChoice) => {
+const showWinner = async(userWin,userChoice,compuChoice) => {
     if (userWin) {
         userScore++
         userScorePara.innerText=userScore
@@ -32,8 +32,8 @@ const genCompuChoice = () => {
     const options = ["rock","paper","scissors"]
     const randomIdx = Math.floor(Math.random()*3) //here floor means to remove decimal places and *3 means to generate number bw 0 to 2
     return options[randomIdx];
-}
 
+}
 const playGame = (userChoice) => {
     const compuChoice = genCompuChoice()
 
