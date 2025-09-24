@@ -1,80 +1,66 @@
-* {
-    margin:0;
+*{
+    margin:0px;
     padding:0px;
+    text-align: center;
 }
 
-body {
+h1 {
+    background-color: #081b31;
+    color:#fff;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    margin-top:5rem;
+}
+
+.choice {
+    width:165px;
+    height:165px;
+    border-radius: 50%;
     display:flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-color: #f4e4ba;
 }
 
-.container {
-    background-color:#fff;
-    padding:2rem;
-    border-radius: 1rem;
-    min-height: 45vh;
-    min-width: 40vh;
+.choice:hover {
+    background-color: black;
 }
 
-form {
-    margin:2rem 0 1rem 0;
+img {
+    width:150px;
+    height:150px;
+    object-fit: cover; /* this line is used to correct the img when the image distorts*/
+    border-radius: 50%;
 }
 
-form input,select,button{
-    width:100%;
-    border:none;
-    outline:none;
-    border-radius: 0.60rem;
-}
-
-form input {
-    border:1px solid lightgray;
-    font-size: 1rem;
-    height:3rem;
-    padding-left:0.5rem;
-}
-
-.dropdown {
-    display:flex;
-    justify-content: space-between;
-    align-items:center;
-    margin-top: 2rem;
-}
-
-.select-container img {
-    max-width:2rem;
-}
-
-.select-container {
-    display:flex;
-    width:6rem;
+.scoreboard {
+    display: flex;
     justify-content: center;
-    align-items:center;
-    border:1px solid lightgray;
-    border-radius:0.5rem;
+    align-items: center;
+    gap:5rem;
+    font-size: 2rem;
+    margin-top: 3rem;
 }
 
-.dropdown i{
-    font-size:1.5rem;
-    margin-top:1rem;
+#computer-score, #user-score {
+    font-size: 4rem;
 }
 
-.select-container select {
-    font-size:1rem;
-    width:auto;
+.message-container{
+    margin-top:5rem;
 }
 
-.msg {
-    margin:2rem 0 2rem 0;
-}
-
-form button {
-    height:3rem;
-    background-color: #af4d98;
-    color:white;
-    font-size:1.15rem;
-    cursor:pointer;
+#msg {
+    background-color: black;
+    color:#fff;
+    font-size: 2rem;
+    display:inline;
+    padding:1rem;
+    border-radius: 1rem;
 }
