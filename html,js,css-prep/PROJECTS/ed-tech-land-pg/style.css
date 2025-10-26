@@ -1,0 +1,150 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+@media only screen and (min-width:200px) and (max-width:600px) {
+    .btn-outer {
+        position:fixed;
+        bottom:0px;
+        width:100%;
+        left:0px;
+        justify-content:center !important;
+    }
+    .whatsappbtn, .call{
+        padding:7px 15px;
+        font-size:14px;
+
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+header {
+    background:white;
+}
+.whatsappbtn {
+    border:1px solid #27AE60;
+    padding:10px 18px;
+    color: #27ae60;
+    font-size:16px;
+}
+
+.whatsappbtn i{
+    color: #27AE60;
+}
+
+.whatsappbtn:hover{
+   border:1px solid #27AE60;
+}
+
+img {
+    border-radius: 50%;
+}
+.call {
+    color:white;
+    border:1px solid #27AE60;
+    background:linear-gradient(to right,#0ACEfE ,#2699FB );
+}
+
+
+
+.bannerContent h1{
+    font-size:52px;
+    font-weight:700;
+}
+
+.bannerContent h1 span{
+    color:#2699FB;
+}
+
+.bannerContent p{
+    font-size:22px;
+}
+
+.bannerContent ul {
+    list-style:none;
+}
+
+.bannerContent ul li{
+    font-size:22px;
+}
+
+.bannerContent ul li i{
+    color:#2699FB;
+}
+
+.bannerContentbtn button{
+    width:50%;
+    padding:10px 0px;
+    border-radius:5px;
+}
+
+.demobtn{
+    color:white;
+    background:linear-gradient(to right,#0acefe,#2699FB);
+}
+
+.bannerForm {
+    padding: 20px 40px 40px 40px;
+    border-radius:10px;
+}
+.bannerForm h3{
+    font-size:18px;
+    font-weight:700;
+}
+
+.row{
+    justify-content:space-between;
+    align-items:center;
+}
+
+.bannerForm button{
+    width:100%;
+    padding:10px 0px;
+    border:none;
+    color:white;
+    background:linear-gradient(to right,#0acefe,#2699FB);
+    border-radius:7px;
+}
+
+.counterSection h2{
+    font-size:30px;
+    font-weight:700px;
+    color:#2699fb;
+}
+
+.Highlights-section {
+    background:#f7faff;
+}
+
+.Highlights-section h2{
+    color:#0a2134;
+    font-size:36px;
+    font-weight:700;
+}
+
+.Highlights-section p{
+    font-size:18px;
+}
+
+
+.box{
+    background:white;
+}
+
+.box {
+    size:10px;
+    align-items:center;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: black;
+    border-bottom:2px solid #2699FB;
+    background-color: transparent;
+    border-radius: 0px;
+}
