@@ -1,0 +1,9 @@
+.kg-span {
+    font-weight: 700;
+}
+
+button {
+    border-radius:5px;
+    float:right;
+    background-color: aqua;
+}

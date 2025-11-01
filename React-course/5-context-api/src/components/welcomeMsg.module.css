@@ -1,0 +1,13 @@
+.message{
+    font-size:24px;
+    border:2px solid black;
+    background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        font-weight: bold;
+    display:inline-block;
+    border-radius:10px;
+    padding:2px;
+    margin-top:17px;
+    
+}

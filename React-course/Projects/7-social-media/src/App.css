@@ -1,0 +1,27 @@
+.app-container{
+    display:flex;
+}
+
+.content{
+    width:100%;
+    min-height:80vh;
+}
+
+.sidebar{
+    min-height:100vh;
+}
+
+.post-card {
+    margin: 20px 50px;
+    width: 30rem;
+}
+
+.text-bg-primary{
+    border-radius: 5px;
+    margin:2px;
+    padding:2px;
+}
+
+.alert {
+    margin:10px;
+}

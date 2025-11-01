@@ -1,0 +1,13 @@
+*{
+    margin:10px;
+}
+
+.calculator {
+    border:1px solid rgb(129, 125, 125);
+    width:200px;
+    border-radius:5px;
+    margin:auto;
+}
+
+
+
